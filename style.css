@@ -19,6 +19,7 @@ body{
 }
 .search-box{
     margin-left: 50px;
+    margin-top: 80px;
 }
 .search-box p{
     display: flex;
@@ -44,15 +45,14 @@ body{
     border-color: white;
 }   
 
-.results{
-    position: relative;
+#results{
+
     margin-left:5%;
     margin-top: 5%;
     padding: 10px;
     /* background-color: grey; */
 }
-
-.results .source{
+#result .source{
     margin-top: 40px;
     border-left: 4px solid crimson;
     padding: 10px;

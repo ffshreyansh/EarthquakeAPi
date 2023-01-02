@@ -34,6 +34,8 @@ fetch(`https://everyearthquake.p.rapidapi.com/earthquakes?start=1&count=100&type
 		}
 	  })
 	.catch(err => console.error(err));
+	lat.value = "";
+	long.value = "";
 		
 }
 
